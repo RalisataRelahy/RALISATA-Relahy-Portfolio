@@ -2,7 +2,7 @@ import { useRef, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { timeline } from '../data/portfolio';
 import { GraduationCap, FolderOpen, Zap } from 'lucide-react';
-import '../styles/Timeline.css';
+import "../styles/TimeLine.css";
 
 const typeIconMap: Record<string, React.ComponentType<{ size?: number; style?: React.CSSProperties }>> = {
   education: GraduationCap,
