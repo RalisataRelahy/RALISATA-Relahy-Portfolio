@@ -1,0 +1,440 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "timeline": "Parcours",
+    "management": "Gestion",
+    "contact": "Contact",
+    "cta": "Me contacter",
+    "themeLight": "Passer en mode clair",
+    "themeDark": "Passer en mode sombre",
+    "languageFrench": "Passer en français",
+    "languageEnglish": "Passer en anglais",
+    "ariaLabel": "Navigation principale",
+    "logoLabel": "Retour à l'accueil",
+    "openMenu": "Ouvrir le menu mobile",
+    "closeMenu": "Fermer le menu mobile",
+    "mobileMenu": "Menu mobile"
+  },
+  "hero": {
+    "badge": "Disponible pour un stage",
+    "roles": [
+      "Développeur full-stack",
+      "Ingénieur logiciel junior",
+      "Gestionnaire",
+      "Développeur React, Python, Flutter"
+    ],
+    "titleAccent": "L3 Informatique de gestion",
+    "description": "Je conçois des solutions techniques fiables, élégantes et performantes à partir de besoins métier complexes.",
+    "btnProjects": "Voir mes projets",
+    "btnCV":"Télécharger mon CV",
+    "askdownCV":"Voulez-vous telecharger quelle CV?",
+    "devbtnCV": "Teleharger CV-DEV",
+    "accoutingtbtnCV":"Teleharger CV-Accounting",
+    "btnContact": "Me contacter",
+    "stats": {
+      "years": "ans de pratique",
+      "technologies": "technologies maîtrisées",
+      "projects": "projets réalisés"
+    },
+    "scroll": "Défiler",
+    "codeComment": "// Prêt à construire !"
+  },
+  "about": {
+    "label": "À propos",
+    "title": "Développeur avec une âme de",
+    "titleAccent": "gestionnaire",
+    "p1": "Étudiant en <strong>Licence 3 — Informatique de Gestion & Génie Logiciel</strong>, je me distingue par une double compétence rare : je code des applications robustes tout en comprenant profondément les enjeux métier qui les sous-tendent.",
+    "p2": "Ce profil hybride me permet de <strong>dialoguer efficacement avec les équipes métier</strong>, de traduire des besoins fonctionnels en solutions techniques, et de livrer des logiciels qui répondent réellement aux problèmes des utilisateurs finaux.",
+    "p3": "Je cherche un <strong>stage de fin d'études</strong> pour appliquer mes compétences dans un environnement professionnel stimulant, contribuer à de vrais projets et continuer à grandir aux côtés d'équipes expertes.",
+    "btnCV": "Télécharger mon CV",
+    "btnContact": "Me contacter",
+    "values": {
+      "hybrid": {
+        "title": "Vision hybride",
+        "desc": "Développement + compréhension des besoins métier"
+      },
+      "solutions": {
+        "title": "Orienté solutions",
+        "desc": "Transformer les problèmes en code fonctionnel"
+      },
+      "team": {
+        "title": "Esprit d'équipe",
+        "desc": "Collaboratif, communicant, adaptable"
+      },
+      "learning": {
+        "title": "Apprentissage rapide",
+        "desc": "Curieux, autonome, toujours en veille tech"
+      }
+    },
+    "badges": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "analyse": "Analyse",
+      "gestion": "Gestion"
+    }
+  },
+  "skills": {
+    "label": "Compétences",
+    "title": "Mon",
+    "titleAccent": "arsenal technique",
+    "subtitle": "Un ensemble de compétences couvrant le développement, la gestion et l'analyse — pour livrer des solutions complètes.",
+    "filterAll": "Tous",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "databases": "Base de données",
+      "programming": "Programmation",
+      "management": "Gestion",
+      "tools": "Outils"
+    },
+    "filterLabel": "Filtrer par catégorie",
+    "listLabel": "Liste des compétences",
+    "items": {
+      "needsAnalysis": "Analyse des besoins",
+      "budgetManagement": "Gestion budgétaire",
+      "processModeling": "Modélisation des processus",
+      "accountingBasics": "Notions comptables",
+      "dataDecision": "Prise de décision data"
+    }
+  },
+  "projects": {
+    "label": "Projets",
+    "title": "Ce que j'ai",
+    "titleAccent": "construit",
+    "subtitle": "Des projets concrets qui allient compétences techniques et vision métier.",
+    "featured": "⭐ Projet vedette",
+    "btnGithub": "↗ GitHub",
+    "btnDemo": "▶ Démo live",
+    "mockup": {
+      "revenues": "Revenus",
+      "expenses": "Dépenses",
+      "balance": "Solde",
+      "restaurant": "Restaurant",
+      "salary": "Salaire",
+      "transport": "Transport"
+    },
+    "items": {
+      "todoApp": {
+        "title": "to-do-app",
+        "description": "Application mobile Flutter pour organiser et suivre des taches au quotidien.",
+        "longDescription": "to-do-app est une application mobile developpee avec Flutter pour gerer les taches, suivre les priorites et garder une organisation simple depuis un smartphone.",
+        "category": "Application mobile",
+        "features": [
+          "Gestion des taches",
+          "Interface mobile",
+          "Developpement Flutter",
+          "Organisation quotidienne"
+        ]
+      },
+      "medilinkApp": {
+        "title": "medilink-app",
+        "description": "Application mobile Flutter liee au projet MediLink.",
+        "longDescription": "medilink-app est la version mobile du projet MediLink, construite avec Flutter pour proposer une experience accessible sur mobile.",
+        "category": "Application mobile",
+        "features": [
+          "Application Flutter",
+          "Experience mobile",
+          "Projet MediLink",
+          "Interface utilisateur"
+        ]
+      },
+      "automation": {
+        "title": "automation",
+        "description": "Script Python pour renommer automatiquement des fichiers.",
+        "longDescription": "automation est un projet Python qui automatise le renommage de fichiers afin de gagner du temps sur les taches repetitives de classement.",
+        "category": "Automatisation",
+        "features": [
+          "Renommage automatique",
+          "Script Python",
+          "Gestion de fichiers",
+          "Gain de temps"
+        ]
+      },
+      "medilinkWeb": {
+        "title": "medilink-web",
+        "description": "Interface web du projet MediLink developpee en React TSX.",
+        "longDescription": "medilink-web est la partie frontend du projet MediLink, realisee avec React et TSX pour construire une interface web moderne.",
+        "category": "Application web",
+        "features": [
+          "Frontend React",
+          "Composants TSX",
+          "Projet L3",
+          "Interface web"
+        ]
+      },
+      "medilinkBackendIa": {
+        "title": "medilink-backend-IA",
+        "description": "Backend Python du projet MediLink avec une partie IA.",
+        "longDescription": "medilink-backend-IA regroupe la partie serveur du projet MediLink, developpee en Python avec des fonctionnalites orientees intelligence artificielle.",
+        "category": "Backend / IA",
+        "features": [
+          "Backend Python",
+          "Fonctionnalites IA",
+          "API projet L3",
+          "Logique serveur"
+        ]
+      },
+      "snakyGame": {
+        "title": "snakygame",
+        "description": "Jeu Snake developpe en Python.",
+        "longDescription": "snakygame est un jeu Python inspire du Snake classique, avec une logique de deplacement, de score et de collision.",
+        "category": "Jeu",
+        "features": [
+          "Jeu Python",
+          "Logique Snake",
+          "Gestion du score",
+          "Interactions clavier"
+        ]
+      },
+      "castAway": {
+        "title": "cast away",
+        "description": "Projet de jeu en C# avec des assets realises avec Aseprite.",
+        "longDescription": "cast away est un projet de jeu developpe en C#, avec une direction visuelle appuyee par des assets crees dans Aseprite.",
+        "category": "Jeu",
+        "features": [
+          "Developpement C#",
+          "Assets Aseprite",
+          "Gameplay",
+          "Univers de jeu"
+        ]
+      },
+      "todoWeb": {
+        "title": "Todo-web",
+        "description": "Application web de todo list developpee avec Vue.js.",
+        "longDescription": "Todo-web est une application Vue.js pour gerer des taches depuis le navigateur avec une interface simple et directe.",
+        "category": "Application web",
+        "features": [
+          "Frontend Vue.js",
+          "Gestion des taches",
+          "Interface web",
+          "Suivi des actions"
+        ]
+      },
+      "bibliotcareDesktop": {
+        "title": "BiblioTCare-desktop",
+        "description": "Application desktop developpee avec Flutter Desktop.",
+        "longDescription": "BiblioTCare-desktop est une application de bureau construite avec Flutter Desktop pour proposer une solution installee sur ordinateur.",
+        "category": "Application desktop",
+        "features": [
+          "Flutter Desktop",
+          "Application bureau",
+          "Interface multiplateforme",
+          "Gestion locale"
+        ]
+      },
+      "egestionOnline": {
+        "title": "EGESTION-ONLINE",
+        "description": "Version en ligne d un projet de gestion developpe en C#.",
+        "longDescription": "EGESTION-ONLINE est une application C# orientee gestion, adaptee pour un usage en ligne.",
+        "category": "Application de gestion",
+        "features": [
+          "Developpement C#",
+          "Gestion en ligne",
+          "Outils metier",
+          "Interface applicative"
+        ]
+      },
+      "miQuizz": {
+        "title": "MiQuizz",
+        "description": "Application de quiz developpee avec Flutter.",
+        "longDescription": "MiQuizz est une application Flutter centree sur les quiz, avec une experience mobile simple pour repondre a des questions.",
+        "category": "Application mobile",
+        "features": [
+          "Quiz mobile",
+          "Flutter",
+          "Questions reponses",
+          "Interface interactive"
+        ]
+      },
+      "calculatrice": {
+        "title": "Calculatrice",
+        "description": "Calculatrice web realisee avec HTML, CSS et JavaScript.",
+        "longDescription": "Calculatrice est un projet web simple qui met en pratique HTML, CSS et JavaScript pour realiser les operations de base.",
+        "category": "Application web",
+        "features": [
+          "HTML CSS JS",
+          "Operations de calcul",
+          "Interface web",
+          "Logique JavaScript"
+        ]
+      }
+    }
+  },
+  "timeline": {
+    "label": "Parcours",
+    "title": "Mon",
+    "titleAccent": "chemin",
+    "subtitle": "Formations, projets et compétences clés qui définissent mon profil aujourd'hui.",
+    "types": {
+      "education": "Formation",
+      "project": "Projet",
+      "skill": "Compétence"
+    },
+    "ongoing": " — En cours",
+    "items": [
+      {
+        "year": "2024 – Présent",
+        "title": "Licence 3 – Informatique de Gestion & Génie Logiciel",
+        "description": "Spécialisation en développement logiciel, architecture systèmes, bases de données et gestion de projets informatiques.",
+        "type": "education",
+        "highlight": true
+      },
+      {
+        "year": "2024",
+        "title": "Projet FREEWALLET",
+        "description": "Développement d'une application de gestion budgétaire avec React, FastAPI et PostgreSQL. Architecture MVC complète.",
+        "type": "project"
+      },
+      {
+        "year": "2023",
+        "title": "Licence 2 – Informatique",
+        "description": "Algorithmique avancée, programmation orientée objet, bases de données relationnelles, développement web.",
+        "type": "education"
+      },
+      {
+        "year": "2023",
+        "title": "Initiation au développement Full Stack",
+        "description": "Maîtrise de React, Node.js et MySQL. Premiers projets web complets avec API RESTful.",
+        "type": "skill"
+      },
+      {
+        "year": "2022",
+        "title": "Licence 1 – Sciences & Technologies",
+        "description": "Fondamentaux en mathématiques, programmation C/Java, logique et algorithmique.",
+        "type": "education"
+      }
+    ],
+    "entries": {
+      "l3": {
+        "year": "2025 – Présent",
+        "title": "Licence 3 – Informatique de Gestion & Génie Logiciel",
+        "description": "Spécialisation en développement logiciel, architecture systèmes, bases de données et gestion de projets informatiques."
+      },
+      "l2": {
+        "year": "2024-2025",
+        "title": "Licence 2 – Informatique",
+        "description": "Algorithmique avancée, programmation orientée objet, bases de données relationnelles, développement web."
+      },
+      "l1": {
+        "year": "2023-2024",
+        "title": "Licence 1 – Sciences & Technologies",
+        "description": "Fondamentaux en mathématiques, programmation C/Java, logique et algorithmique."
+      },
+      "l0": {
+        "year": "2022-2023",
+        "title": "BACCALAUREAT-SERIE C",
+        "description": "Obtention de mon baccalaureat serie C mention passable avec 11.97 de moyenne"
+      }
+    }
+  },
+  "management": {
+    "label": "Vision Gestion & Tech",
+    "title": "La technologie au service de la",
+    "titleAccent": "gestion",
+    "p1": "Ma formation en <strong>Informatique de Gestion</strong> me donne une perspective unique : je ne vois pas seulement le code, je vois les <strong>processus métier</strong>, les indicateurs de performance et les décisions stratégiques que la technologie peut améliorer.",
+    "p2": "Capable de travailler à l'intersection entre les équipes techniques et les équipes métier, je produis des logiciels qui génèrent de la <strong>valeur réelle</strong> pour les organisations.",
+    "processTitle": "Processus de développement orienté valeur",
+    "kpis": {
+      "needs": "Orienté besoins",
+      "data": "Visualisation data",
+      "architecture": "Architecture",
+      "value": "Vision valeur"
+    },
+    "processSteps": {
+      "analyse": "Analyse\nbesoins",
+      "conception": "Conception\narchitecture",
+      "dev": "Développement\nAgile",
+      "tests": "Tests &\nValidation",
+      "delivery": "Livraison\nvaleur"
+    },
+    "cards": {
+      "needs": {
+        "title": "Analyse des besoins métier",
+        "description": "Capacité à recueillir, analyser et formaliser les besoins fonctionnels pour concevoir des solutions pertinentes.",
+        "items": [
+          "Entretiens utilisateurs",
+          "Spécifications fonctionnelles",
+          "Diagrammes UML",
+          "Cahier des charges"
+        ]
+      },
+      "finance": {
+        "title": "Gestion financière",
+        "description": "Compréhension des mécanismes budgétaires et comptables pour développer des outils de pilotage financier.",
+        "items": [
+          "Suivi budgétaire",
+          "Tableaux de bord",
+          "KPIs financiers",
+          "Rapports analytiques"
+        ]
+      },
+      "process": {
+        "title": "Modélisation des processus",
+        "description": "Représentation et optimisation des processus organisationnels à l'aide de méthodes reconnues.",
+        "items": [
+          "BPMN",
+          "Diagrammes de flux",
+          "Optimisation process",
+          "Documentation"
+        ]
+      },
+      "decision": {
+        "title": "Aide à la décision",
+        "description": "Transformation des données brutes en informations utiles pour guider les prises de décision stratégiques.",
+        "items": [
+          "Tableaux de bord BI",
+          "Data visualisation",
+          "Rapports automatisés",
+          "Indicateurs clés"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Travaillons",
+    "titleAccent": "ensemble",
+    "subtitle": "Je suis disponible pour un stage de fin d'études dès le mois de Septembre. N'hésitez pas à me contacter pour discuter de vos projets.",
+    "availability": {
+      "title": "disponible pour stage a compter du mois de Septembre.",
+      "subtitle": "Ouvert aux opportunités apartir du mois de Septembre"
+    },
+    "links": {
+      "email": "Email",
+      "github": "GitHub",
+      "location": "Localisation",
+      "phone": "Numero de téléphone"
+    },
+    "form": {
+      "title": "Envoyer un message",
+      "subtitle": "Je réponds généralement sous 24h",
+      "name": "Nom complet *",
+      "namePlaceholder": "Jean Dupont",
+      "email": "Email *",
+      "emailPlaceholder": "jean@entreprise.com",
+      "subject": "Sujet *",
+      "subjectPlaceholder": "Proposition de stage, collaboration...",
+      "message": "Message *",
+      "messagePlaceholder": "Décrivez votre projet ou votre proposition...",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours..."
+    },
+    "success": {
+      "title": "Message envoyé !",
+      "text": "Merci pour votre message. Je vous répondrai dans les plus brefs délais.",
+      "reset": "Envoyer un autre message"
+    },
+    "footer": {
+      "copy": "Développeur Full Stack. Conçue avec React.",
+      "linksLabel": "Liens du footer"
+    }
+  },
+  "personal": {
+    "description": "Je développe des applications modernes tout en comprenant les besoins métier, la gestion et les processus organisationnels.",
+    "location": "Madagascar, Antananarivo, Besarety"
+  }
+}

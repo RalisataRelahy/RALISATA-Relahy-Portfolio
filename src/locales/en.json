@@ -1,0 +1,440 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "timeline": "Journey",
+    "management": "Management",
+    "contact": "Contact",
+    "cta": "Contact me",
+    "themeLight": "Switch to light mode",
+    "themeDark": "Switch to dark mode",
+    "languageFrench": "Switch to French",
+    "languageEnglish": "Switch to English",
+    "ariaLabel": "Main navigation",
+    "logoLabel": "Back to home",
+    "openMenu": "Open mobile menu",
+    "closeMenu": "Close mobile menu",
+    "mobileMenu": "Mobile menu"
+  },
+  "hero": {
+    "badge": "Available for internship",
+    "roles": [
+      "Full Stack Developer",
+      "Software Engineer",
+      "Management",
+      "React & Python & Flutter Developer"
+    ],
+    "titleAccent": "L3 InfoManagement",
+    "description": "I turn complex business needs into elegant, high-performance technical solutions.",
+    "btnProjects": "View my projects",
+    "askdownCV":"Which CV do you want to download?",
+    "btnCV":"Download my CV",
+    "devbtnCV": "Download CV-DEV",
+    "accoutingtbtnCV":"Download CV-Accounting",
+    "btnContact": "Contact me",
+    "stats": {
+      "years": "years of coding",
+      "technologies": "technologies mastered",
+      "projects": "completed projects"
+    },
+    "scroll": "scroll",
+    "codeComment": "// Ready to build!"
+  },
+  "about": {
+    "label": "About",
+    "title": "Developer with a",
+    "titleAccent": "manager's mindset",
+    "p1": "Student in <strong>Bachelor's 3 — Management IT & Software Engineering</strong>, I stand out with a rare dual skill set: I build robust applications while deeply understanding the business challenges behind them.",
+    "p2": "This hybrid profile allows me to <strong>communicate effectively with business teams</strong>, translate functional requirements into technical solutions, and deliver software that truly solves end-user problems.",
+    "p3": "I am looking for an <strong>end-of-study internship</strong> to apply my skills in a stimulating professional environment, contribute to real projects, and continue to grow alongside expert teams.",
+    "btnCV": "Download my CV",
+    "btnContact": "Contact me",
+    "values": {
+      "hybrid": {
+        "title": "Hybrid vision",
+        "desc": "Development + understanding of business needs"
+      },
+      "solutions": {
+        "title": "Solution-oriented",
+        "desc": "Turning problems into working code"
+      },
+      "team": {
+        "title": "Team spirit",
+        "desc": "Collaborative, communicative, adaptable"
+      },
+      "learning": {
+        "title": "Fast learner",
+        "desc": "Curious, autonomous, always watching for new tech"
+      }
+    },
+    "badges": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "analyse": "Analysis",
+      "gestion": "Management"
+    }
+  },
+  "skills": {
+    "label": "Skills",
+    "title": "My",
+    "titleAccent": "technical arsenal",
+    "subtitle": "A broad skill set covering development, management and analysis — to deliver complete solutions.",
+    "filterAll": "All",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "mobile": "Mobile",
+      "databases": "Databases",
+      "programming": "Programming",
+      "management": "Management",
+      "tools": "Tools"
+    },
+    "filterLabel": "Filter by category",
+    "listLabel": "Skills list",
+    "items": {
+      "needsAnalysis": "Needs analysis",
+      "budgetManagement": "Budget management",
+      "processModeling": "Process modeling",
+      "accountingBasics": "Accounting basics",
+      "dataDecision": "Data-driven decision-making"
+    }
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "What I have",
+    "titleAccent": "built",
+    "subtitle": "Concrete projects combining technical skills with business vision.",
+    "featured": "⭐ Featured project",
+    "btnGithub": "↗ GitHub",
+    "btnDemo": "▶ Live demo",
+    "mockup": {
+      "revenues": "Revenue",
+      "expenses": "Expenses",
+      "balance": "Balance",
+      "restaurant": "Restaurant",
+      "salary": "Salary",
+      "transport": "Transport"
+    },
+    "items": {
+      "todoApp": {
+        "title": "to-do-app",
+        "description": "Flutter mobile app for organizing and tracking everyday tasks.",
+        "longDescription": "to-do-app is a Flutter mobile application for managing tasks, tracking priorities and keeping daily organization simple on a smartphone.",
+        "category": "Mobile app",
+        "features": [
+          "Task management",
+          "Mobile interface",
+          "Flutter development",
+          "Daily organization"
+        ]
+      },
+      "medilinkApp": {
+        "title": "medilink-app",
+        "description": "Flutter mobile application connected to the MediLink project.",
+        "longDescription": "medilink-app is the mobile version of the MediLink project, built with Flutter to provide an accessible mobile experience.",
+        "category": "Mobile app",
+        "features": [
+          "Flutter app",
+          "Mobile experience",
+          "MediLink project",
+          "User interface"
+        ]
+      },
+      "automation": {
+        "title": "automation",
+        "description": "Python script for automatically renaming files.",
+        "longDescription": "automation is a Python project that automates file renaming to save time on repetitive organization tasks.",
+        "category": "Automation",
+        "features": [
+          "Automatic renaming",
+          "Python script",
+          "File management",
+          "Time saving"
+        ]
+      },
+      "medilinkWeb": {
+        "title": "medilink-web",
+        "description": "MediLink web interface developed with React TSX.",
+        "longDescription": "medilink-web is the frontend part of the MediLink project, built with React and TSX to create a modern web interface.",
+        "category": "Web app",
+        "features": [
+          "React frontend",
+          "TSX components",
+          "L3 project",
+          "Web interface"
+        ]
+      },
+      "medilinkBackendIa": {
+        "title": "medilink-backend-IA",
+        "description": "Python backend for MediLink with an AI component.",
+        "longDescription": "medilink-backend-IA contains the server side of the MediLink project, developed in Python with AI-oriented features.",
+        "category": "Backend / AI",
+        "features": [
+          "Python backend",
+          "AI features",
+          "L3 project API",
+          "Server logic"
+        ]
+      },
+      "snakyGame": {
+        "title": "snakygame",
+        "description": "Snake game developed in Python.",
+        "longDescription": "snakygame is a Python game inspired by classic Snake, with movement, scoring and collision logic.",
+        "category": "Game",
+        "features": [
+          "Python game",
+          "Snake logic",
+          "Score management",
+          "Keyboard interaction"
+        ]
+      },
+      "castAway": {
+        "title": "cast away",
+        "description": "C# game project with assets created in Aseprite.",
+        "longDescription": "cast away is a game project developed in C#, with visual assets created using Aseprite.",
+        "category": "Game",
+        "features": [
+          "C# development",
+          "Aseprite assets",
+          "Gameplay",
+          "Game world"
+        ]
+      },
+      "todoWeb": {
+        "title": "Todo-web",
+        "description": "Todo list web application developed with Vue.js.",
+        "longDescription": "Todo-web is a Vue.js application for managing tasks in the browser with a simple and direct interface.",
+        "category": "Web app",
+        "features": [
+          "Vue.js frontend",
+          "Task management",
+          "Web interface",
+          "Action tracking"
+        ]
+      },
+      "bibliotcareDesktop": {
+        "title": "BiblioTCare-desktop",
+        "description": "Desktop application developed with Flutter Desktop.",
+        "longDescription": "BiblioTCare-desktop is a desktop application built with Flutter Desktop to provide an installed computer experience.",
+        "category": "Desktop app",
+        "features": [
+          "Flutter Desktop",
+          "Desktop app",
+          "Cross-platform interface",
+          "Local management"
+        ]
+      },
+      "egestionOnline": {
+        "title": "EGESTION-ONLINE",
+        "description": "Online version of a management project developed in C#.",
+        "longDescription": "EGESTION-ONLINE is a C# management-oriented application adapted for online use.",
+        "category": "Management app",
+        "features": [
+          "C# development",
+          "Online management",
+          "Business tools",
+          "Application interface"
+        ]
+      },
+      "miQuizz": {
+        "title": "MiQuizz",
+        "description": "Quiz application developed with Flutter.",
+        "longDescription": "MiQuizz is a Flutter quiz application with a simple mobile experience for answering questions.",
+        "category": "Mobile app",
+        "features": [
+          "Mobile quiz",
+          "Flutter",
+          "Questions and answers",
+          "Interactive interface"
+        ]
+      },
+      "calculatrice": {
+        "title": "Calculatrice",
+        "description": "Web calculator built with HTML, CSS and JavaScript.",
+        "longDescription": "Calculatrice is a small web project using HTML, CSS and JavaScript to perform basic operations.",
+        "category": "Web app",
+        "features": [
+          "HTML CSS JS",
+          "Calculation operations",
+          "Web interface",
+          "JavaScript logic"
+        ]
+      }
+    }
+  },
+  "timeline": {
+    "label": "Journey",
+    "title": "My",
+    "titleAccent": "path",
+    "subtitle": "Training, projects and key skills that define my profile today.",
+    "types": {
+      "education": "Education",
+      "project": "Project",
+      "skill": "Skill"
+    },
+    "ongoing": " — Ongoing",
+    "items": [
+      {
+        "year": "2024 – Present",
+        "title": "Bachelor's 3 – Management IT & Software Engineering",
+        "description": "Specialization in software development, system architecture, databases and IT project management.",
+        "type": "education",
+        "highlight": true
+      },
+      {
+        "year": "2024",
+        "title": "FREEWALLET Project",
+        "description": "Development of a budget management app with React, FastAPI and PostgreSQL. Complete MVC architecture.",
+        "type": "project"
+      },
+      {
+        "year": "2023",
+        "title": "Bachelor's 2 – Computer Science",
+        "description": "Advanced algorithms, object-oriented programming, relational databases, web development.",
+        "type": "education"
+      },
+      {
+        "year": "2023",
+        "title": "Introduction to Full Stack development",
+        "description": "Mastery of React, Node.js and MySQL. First complete web projects with RESTful API.",
+        "type": "skill"
+      },
+      {
+        "year": "2022",
+        "title": "Bachelor's 1 – Sciences & Technologies",
+        "description": "Fundamentals in mathematics, C/Java programming, logic and algorithms.",
+        "type": "education"
+      }
+    ],
+    "entries": {
+      "l3": {
+        "year": "2025 – Present",
+        "title": "Bachelor 3 – Management IT & Software Engineering",
+        "description": "Specialization in software development, system architecture, databases and IT project management."
+      },
+      "l2": {
+        "year": "2024-2025",
+        "title": "Bachelor 2 – Computer Science",
+        "description": "Advanced algorithms, object-oriented programming, relational databases and web development."
+      },
+      "l1": {
+        "year": "2023-2024",
+        "title": "Bachelor 1 – Sciences & Technologies",
+        "description": "Fundamentals in mathematics, C/Java programming, logic and algorithms."
+      },
+      "l0": {
+        "year": "2022-2023",
+        "title": "Baccalaureat-Serie C",
+        "description": "Obtained my Baccalauréat (Series C) with a passing grade and an average of 11.97."
+      }
+    }
+  },
+  "management": {
+    "label": "Management & Tech Vision",
+    "title": "Technology in the service of",
+    "titleAccent": "management",
+    "p1": "My <strong>Management IT</strong> training gives me a unique perspective: I don't just see the code, I see the <strong>business processes</strong>, performance indicators and strategic decisions that technology can improve.",
+    "p2": "Able to work at the intersection of technical and business teams, I produce software that generates <strong>real value</strong> for organizations.",
+    "processTitle": "Value-driven development process",
+    "kpis": {
+      "needs": "Needs-driven",
+      "data": "Data visualization",
+      "architecture": "Architecture",
+      "value": "Value vision"
+    },
+    "processSteps": {
+      "analyse": "Needs\nAnalysis",
+      "conception": "Architecture\nDesign",
+      "dev": "Agile\nDevelopment",
+      "tests": "Testing &\nValidation",
+      "delivery": "Value\nDelivery"
+    },
+    "cards": {
+      "needs": {
+        "title": "Business needs analysis",
+        "description": "Ability to gather, analyze and formalize functional requirements to design relevant solutions.",
+        "items": [
+          "User interviews",
+          "Functional specifications",
+          "UML diagrams",
+          "Requirements document"
+        ]
+      },
+      "finance": {
+        "title": "Financial management",
+        "description": "Understanding of budgetary and accounting mechanisms to develop financial management tools.",
+        "items": [
+          "Budget tracking",
+          "Dashboards",
+          "Financial KPIs",
+          "Analytical reports"
+        ]
+      },
+      "process": {
+        "title": "Process modeling",
+        "description": "Representation and optimization of organizational processes using recognized methods.",
+        "items": [
+          "BPMN",
+          "Flow diagrams",
+          "Process optimization",
+          "Documentation"
+        ]
+      },
+      "decision": {
+        "title": "Decision support",
+        "description": "Turning raw data into useful information to guide strategic decisions.",
+        "items": [
+          "BI dashboards",
+          "Data visualization",
+          "Automated reports",
+          "Key indicators"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's work",
+    "titleAccent": "together",
+    "subtitle": "I am available for a final-year internship starting in September.. Feel free to contact me to discuss your projects.",
+    "availability": {
+      "title": "Available for an internship starting in September.",
+      "subtitle": "Open to opportunities starting in September"
+    },
+    "links": {
+      "email": "Email",
+      "github": "GitHub",
+      "location": "Location",
+      "phone": "Phone Number"
+    },
+    "form": {
+      "title": "Send a message",
+      "subtitle": "I usually reply within 24h",
+      "name": "Full name *",
+      "namePlaceholder": "John Doe",
+      "email": "Email *",
+      "emailPlaceholder": "john@company.com",
+      "subject": "Subject *",
+      "subjectPlaceholder": "Internship proposal, collaboration...",
+      "message": "Message *",
+      "messagePlaceholder": "Describe your project or proposal...",
+      "submit": "Send message",
+      "sending": "Sending..."
+    },
+    "success": {
+      "title": "Message sent!",
+      "text": "Thank you for your message. I will get back to you as soon as possible.",
+      "reset": "Send another message"
+    },
+    "footer": {
+      "copy": "Full Stack Developer. Built with React.",
+      "linksLabel": "Footer links"
+    }
+  },
+  "personal": {
+    "description": "I build modern applications while understanding business needs, management constraints and organizational processes.",
+    "location": "Madagascar, Antananarivo, Besarety"
+  }
+}

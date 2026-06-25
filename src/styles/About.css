@@ -1,0 +1,213 @@
+/* =========================================
+   ABOUT SECTION STYLES
+   ========================================= */
+
+.about {
+    background: var(--bg-secondary);
+}
+
+.about-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+/* Left column */
+.about-visual {
+    position: relative;
+}
+
+.about-avatar-wrap {
+    position: relative;
+    width: 320px;
+    height: 380px;
+    margin: 0 auto;
+}
+
+.about-avatar {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-elevated) 100%);
+    border-radius: var(--border-radius-lg);
+    border: 1px solid var(--border-card);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--shadow-elevated);
+}
+
+.about-avatar-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, transparent 40%, rgba(13, 15, 20, 0.6));
+    border-radius: var(--border-radius-lg);
+}
+
+.about-avatar-emoji {
+    position: relative;
+    z-index: 1;
+    animation: float 6s ease-in-out infinite;
+}
+
+/* Floating badges */
+.about-badge {
+    position: absolute;
+    background: var(--bg-card);
+    border: 1px solid var(--border-card);
+    border-radius: 10px;
+    padding: 10px 14px;
+    box-shadow: var(--shadow-card);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.78rem;
+    white-space: nowrap;
+}
+
+.about-badge-icon {
+    font-size: 1rem;
+}
+
+.about-badge-text {
+    font-weight: 600;
+    color: var(--text-primary);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+}
+
+.about-badge-sub {
+    color: var(--text-muted);
+    font-size: 0.65rem;
+}
+
+.badge-top-right {
+    top: -16px;
+    right: -20px;
+    animation: float 5s ease-in-out infinite;
+}
+
+.badge-bottom-left {
+    bottom: -16px;
+    left: -20px;
+    animation: float 7s ease-in-out infinite 0.5s;
+}
+
+.badge-bottom-right {
+    bottom: 40px;
+    right: -20px;
+    animation: float 6s ease-in-out infinite 1s;
+}
+
+/* Right column */
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.about-text p {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+.about-text p:last-child {
+    margin-bottom: 0;
+}
+
+.about-text strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+/* Values grid */
+.about-values {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.value-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-card);
+    border-radius: var(--border-radius);
+    padding: 16px;
+    transition: all var(--transition-base);
+    position: relative;
+    overflow: hidden;
+}
+
+.value-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--accent-blue);
+    opacity: 0;
+    transition: opacity var(--transition-base);
+}
+
+.value-card:hover {
+    border-color: var(--border-accent);
+    transform: translateY(-2px);
+}
+
+.value-card:hover::before {
+    opacity: 1;
+}
+
+.value-icon {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+
+.value-title {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.value-desc {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+/* About CTA */
+.about-cta {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding-top: 8px;
+}
+
+/* =========================================
+   RESPONSIVE
+   ========================================= */
+@media (max-width: 1024px) {
+    .about-inner {
+        grid-template-columns: 1fr;
+        gap: 48px;
+    }
+
+    .about-avatar-wrap {
+        width: 260px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 640px) {
+    .about-values {
+        grid-template-columns: 1fr;
+    }
+}

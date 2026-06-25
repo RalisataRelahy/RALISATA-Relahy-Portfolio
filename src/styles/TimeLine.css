@@ -1,0 +1,182 @@
+/* =========================================
+   TIMELINE SECTION STYLES
+   ========================================= */
+
+.timeline {
+    background: var(--bg-primary);
+}
+
+.timeline-header {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.timeline-header .section-label {
+    justify-content: center;
+}
+
+.timeline-header .section-label::before {
+    display: none;
+}
+
+/* Timeline wrapper */
+.timeline-track {
+    position: relative;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.timeline-line {
+    position: absolute;
+    left: 28px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: var(--border-subtle);
+    z-index: 0;
+}
+
+.timeline-line-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, var(--accent-blue), var(--accent-cyan));
+    border-radius: 1px;
+    transition: height 1.2s ease;
+}
+
+/* Individual items */
+.timeline-item {
+    position: relative;
+    padding-left: 72px;
+    padding-bottom: 48px;
+    z-index: 1;
+}
+
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+/* Dot indicator */
+.timeline-dot {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    border: 2px solid var(--border-card);
+    background: var(--bg-card);
+    transition: all var(--transition-base);
+    box-shadow: 0 0 0 4px var(--bg-primary);
+}
+
+.timeline-item:hover .timeline-dot {
+    border-color: var(--accent-blue);
+    box-shadow: 0 0 0 4px var(--bg-primary), 0 0 20px rgba(79, 156, 249, 0.2);
+}
+
+.timeline-dot.education {
+    background: rgba(79, 156, 249, 0.1);
+}
+
+.timeline-dot.project {
+    background: rgba(56, 189, 248, 0.1);
+}
+
+.timeline-dot.skill {
+    background: rgba(74, 222, 128, 0.1);
+}
+
+/* Content card */
+.timeline-content {
+    background: var(--bg-card);
+    border: 1px solid var(--border-card);
+    border-radius: var(--border-radius);
+    padding: 24px;
+    transition: all var(--transition-base);
+}
+
+.timeline-item.highlighted .timeline-content {
+    border-color: var(--border-accent);
+    box-shadow: var(--shadow-glow);
+}
+
+.timeline-item:hover .timeline-content {
+    border-color: var(--border-accent);
+}
+
+.timeline-year {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--accent-blue);
+    font-weight: 500;
+    margin-bottom: 6px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.timeline-title {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+}
+
+.timeline-desc {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    line-height: 1.65;
+}
+
+.timeline-type-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 12px;
+    padding: 3px 10px;
+    border-radius: 100px;
+    font-size: 0.68rem;
+    font-family: var(--font-mono);
+    font-weight: 500;
+}
+
+.timeline-type-tag.education {
+    background: rgba(79, 156, 249, 0.1);
+    color: var(--accent-blue);
+}
+
+.timeline-type-tag.project {
+    background: rgba(56, 189, 248, 0.1);
+    color: var(--accent-cyan);
+}
+
+.timeline-type-tag.skill {
+    background: rgba(74, 222, 128, 0.1);
+    color: #4ade80;
+}
+
+/* =========================================
+   RESPONSIVE
+   ========================================= */
+@media (max-width: 480px) {
+    .timeline-item {
+        padding-left: 60px;
+    }
+
+    .timeline-dot {
+        width: 44px;
+        height: 44px;
+        font-size: 1rem;
+    }
+
+    .timeline-line {
+        left: 22px;
+    }
+}
