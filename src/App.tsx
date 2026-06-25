@@ -1,6 +1,6 @@
 import { useScrollProgress, useTheme, useActiveSection } from './hooks/usePortfolio';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import Hero from './components/Hero.tsx';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';

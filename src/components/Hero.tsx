@@ -97,7 +97,7 @@ export default function Hero() {
 
                 <div className="cv-buttons">
                   <a
-                    href="/cv-dev.pdf"
+                    href="/Ralisata-relahy-cv-dev.pdf"
                     download
                     className="btn btn-outline"
                   >
@@ -105,7 +105,7 @@ export default function Hero() {
                   </a>
 
                   <a
-                    href="/cv-accounting.pdf"
+                    href="/Ralisata-relahy-cv-gestion.pdf"
                     download
                     className="btn btn-outline"
                   >
