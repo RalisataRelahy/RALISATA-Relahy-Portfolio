@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Timeline from './components/Timeline';
+import Timeline from './components/Timeline.tsx';
 import Management from './components/Management';
 import Contact from './components/Contact';
 import FloatingButton from './components/floatingActionButton';
